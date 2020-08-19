@@ -1,0 +1,2 @@
+# autologin
+vbs+bat+python
