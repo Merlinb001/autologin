@@ -1,0 +1,5 @@
+#schtasks命令
+#建立任务：schtasks /create /tn %name% /tr %path% /sc %for% /st %starttime%
+#删除任务：schtasks /delete /tn %name%
+
+schtasks /create /tn auto_login /tr hidelogin.vbs /sc minute /mo 5
